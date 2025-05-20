@@ -12,3 +12,6 @@ const hitesh:User12 ={dbId:22,email:"h@.com",userId:2221,startTrial:()=>{
 getcoupon:(name:"shivam",off:10)=>{
     return 89
 }}
+interface Admin extends User12{
+    role:"admin"|"ta"|"learner"
+}
