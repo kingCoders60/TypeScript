@@ -11,5 +11,5 @@ function provideId(id:string|null){
         console.log("Please Provide Id");
         return
     }
-    id.toLowerCase();
+    id.toLowerCase
 }

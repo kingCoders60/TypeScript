@@ -10,5 +10,5 @@ function provideId(id) {
         console.log("Please Provide Id");
         return;
     }
-    id.toLowerCase();
+    id.toLowerCase;
 }
